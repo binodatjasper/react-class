@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+.navbar-item {
+    display: inline-block;
+}
+
+.navbar-item a {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #3498db;
+    margin: 0 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-item a.active {
+    background: #e74c3c;
+}
