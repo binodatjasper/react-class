@@ -25,3 +25,39 @@ body {
 .navbar-item a.active {
     background: #e74c3c;
 }
+
+.slick-slide {
+    padding: 0 10px;
+}
+
+.slick-arrow {
+    z-index: 99999;
+}
+
+.slick-arrow.slick-prev {
+    left: 30px;
+}
+
+.slick-arrow.slick-next {
+    right: 30px;
+}
+
+.serivices-item {
+    position: relative;
+}
+
+.serivices-item img {
+    width: 100%;
+    height: auto;
+}
+
+.serivices-item h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}

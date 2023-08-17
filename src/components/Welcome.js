@@ -1,9 +1,6 @@
 import React from "react";
 
 export default function WelcomeSection(props) {
-
-    console.log(props);
-
     return (
         <section className="banner">
             <div className="container">
